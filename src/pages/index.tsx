@@ -1,5 +1,4 @@
 import Head from 'next/head'
-import { Header } from '../components/Header'
 
 export default function Home() {
   return (
@@ -11,7 +10,7 @@ export default function Home() {
         <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,700;1,900&display=swap" rel="stylesheet" />
         <link href="https://fonts.googleapis.com/css2?family=Antonio:wght@400;600&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,700;1,900&display=swap" rel="stylesheet" />
       </Head>
-      <Header />
+      
     </div>
   )
 }
