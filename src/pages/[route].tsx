@@ -1,3 +1,4 @@
+import { GridImages } from '../components/GridImages';
 import { Navbar } from '../components/Navbar';
 
 export async function getStaticPaths(){
@@ -21,7 +22,7 @@ export async function getStaticPaths(){
 
 export async function getStaticProps(context){
     const route = context.params.route
-    return { 
+    return {
         props: {
             route
         }
@@ -33,15 +34,21 @@ export default function Routes(props){
     return (
         <>
             <Navbar/>
-            {/* {
-                props.route == 'Home' && Home
+            {
+                props.route == 'Home' && (
+                    <GridImages/>
+                )
             }
             {
-                props.route == 'Photos' && Photos
+                props.route == 'Photos' && (
+                    <h1>Photos</h1>
+                )
             }
             {
-                props.route == 'Photos' && Movies
-            } */}
+                props.route == 'Movies' && (
+                    <h1>Movies</h1>
+                )
+            }
         </>
     )
 }

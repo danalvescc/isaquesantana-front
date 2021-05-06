@@ -18,6 +18,7 @@
     
     font-weight: 400;
     font-size: 1rem;
+    letter-spacing:.4em;
 }
 
 .container .right{
@@ -30,10 +31,8 @@
 }
 
 .container .right a{
-    margin: 0 .5rem;
+    margin-left: 24px;
+    letter-spacing:.2em;
 }
 
-.container .right a:last-child{
-    margin: 0 0 0 .5rem;
-}
 

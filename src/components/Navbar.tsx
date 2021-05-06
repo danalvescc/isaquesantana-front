@@ -10,13 +10,13 @@ export function Navbar(){
             </div>
             <div className={styles.right}>
                 <Link href="/Home">
-                    Home
+                    HOME
                 </Link>
                 <Link href="/Photos">
-                    Photos
+                    PHOTOS
                 </Link>
                 <Link href="/Movies">
-                    Movies
+                    MOVIES
                 </Link>
             </div>
         </div>
